@@ -1,0 +1,37 @@
+﻿@model List<Model.EF.Menu>
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container">
+        <a href="/">Blog</a>
+
+        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+            <a class="btn-dark" href="/">Home</a>
+            <a href="/AboutMe">AboutMe</a>     
+            <div class="account_desc">
+                @{
+                    var session = (UserLogin)Session[Blog.Common.CommonConstans.USER_SESSION];
+                }
+                @if (session == null)
+                {
+
+                    <ul>
+                        @foreach (var item in Model)
+                        {
+                            <a href="@item.Link" target="@item.Target" class="pull-right">@item.Text</a>
+                        }
+                    </ul>
+
+                }
+                else
+                {
+                    <ul>
+                        <li>@session.UserName</li>
+                        <li>@Html.ActionLink("Logout", "Logout", "Users")</li>
+                        <li>
+                            @Html.ActionLink("Edit", "Edit", "Users")
+                        </li>
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,12 @@
+D:\FPT\CNganh5\Final_C#\OnlineShop\Common\bin\Debug\Common.dll
+D:\FPT\CNganh5\Final_C#\OnlineShop\Common\bin\Debug\Common.pdb
+D:\FPT\CNganh5\Final_C#\OnlineShop\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\FPT\CNganh5\Final_C#\OnlineShop\Common\obj\Debug\Common.dll
+D:\FPT\CNganh5\Final_C#\OnlineShop\Common\obj\Debug\Common.pdb
+D:\FPT\CNganh5\Final_C#\OnlineShop\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\PROJECT-C#\Final_C#\ColorSeo\Common\bin\Debug\Common.dll
+C:\Users\Administrator\source\repos\PROJECT-C#\Final_C#\ColorSeo\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\source\repos\PROJECT-C#\Final_C#\ColorSeo\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\PROJECT-C#\Final_C#\ColorSeo\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\PROJECT-C#\Final_C#\ColorSeo\Common\obj\Debug\Common.dll
+C:\Users\Administrator\source\repos\PROJECT-C#\Final_C#\ColorSeo\Common\obj\Debug\Common.pdb
